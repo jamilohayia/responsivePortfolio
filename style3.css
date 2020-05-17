@@ -9,3 +9,21 @@ h2 {
       margin-bottom: 50px;
       text-align: center;
 
+}     
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: green;
+        color: white;
+        text-align: center;
+     }
+
+     
+     .responsive {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
