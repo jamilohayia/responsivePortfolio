@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me!</title>
+    <title>Contact Me</title>
     
     <!-- CSS Style Sheets -->
     
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="/Assets/STYLE/style4.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,11 +20,13 @@
     
  </head>
 
-
-<body>
+ 
+ <body>
+     
+ 
+ <style>
     
 
- <style>
     body {
   
   background-color: lightblue;
@@ -32,7 +34,7 @@
   
     </style>
 
-<!--Navigation Bar, and links to each page --> 
+ <!--Navigation Bar, and links to each page --> 
 <nav class="navbar navbar-expand-lg navbar-light" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,17 +57,33 @@
       </div>
   </nav>
 
-  <!-- This section shows my bio and profile picture -->
+  <section class="wrapper">
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <header>
+            <h3>Feel free to reach out</h3>
 
-  <h3> About Me </h3>
+          </header>
 
-  <p id="bio">My professional background centers in client service and business development. I'm currently a Consultant at ACA Compliance Group, where the goal is to provide risk mitigation and regulatory compliance solutions for companies around the world. I'm also a current student in a Full Stack Coding Bootcamp offered by Columbia University. </p>
+          <div class="contact-form">
+            <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+              <br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+              <br>
+              <input name="phone number" type="phone number" class="form-control" placeholder="Your Phone Number" required>
+              <br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="3" required></textarea>
+              <br>
 
-<p> I have a deep passion for volunteering, community development, and sustainability. As an Ambassador for the All Ivy Board, I help organize social and professional events for thousands of young professionals in the Greater New York City area. I'm also a member of the Nature Conservancy whose mission is to conserve the lands and waters on which all life depends. I earned my Bachelor of the Arts degree in Political Science from Columbia University in May 2015. 
-</p>
-    
+                <button type="button" onclick="alert('Thanks! I look forward to connecting with you.')">Send your information</button>
 
-    <img src="/Assets/Images/JO pic.jpg" alt="Jamil Ohayia" class="responsive">
+
+            </form>
+          </div>
+      
+    </section>
 
     <!-- Footer Section -->
 
@@ -74,5 +92,5 @@
         © Copyright Jamil Ohayia
       </div>
       
-  
+
     </body>
