@@ -82,7 +82,7 @@ You are required to submit the following:
 
 * The URLs of the deployed applications: https://jamilohayia.github.io/responsivePortfolio/
 
-* The URLs of the GitHub repositories: https://github.com/jamilohayia
+* The URLs of the GitHub repositories: https://github.com/jamilohayia/responsivePortfolio
 
 - - -
 
